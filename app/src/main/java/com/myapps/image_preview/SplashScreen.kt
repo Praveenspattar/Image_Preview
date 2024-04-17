@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 
 class SplashScreen : AppCompatActivity() {
     private val splashTimeOut: Long = 2000
-    private val splashIntent by lazy { Intent(this, MainActivity::class.java) }
+    private val splashIntent by lazy { Intent(this, SigninActivity::class.java) }
     private  var job: Job? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
